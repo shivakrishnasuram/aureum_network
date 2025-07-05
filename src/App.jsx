@@ -1,7 +1,6 @@
 import React from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
-// import Home from './pages/Main';
 import Main from './pages/Main';
 
 import RegisterForm from './components/RegisterForm';
@@ -9,7 +8,7 @@ import LoginForm from './components/LoginForm';
 import SidebarLayout from './components/SidebarLayout';
 import Profile from './pages/Profile';
 import Transactions from './pages/Transactions';
-import About from './pages/About';
+import AadhaarESign from './pages/AadharSign';
 
 
 const App = () => {
@@ -34,7 +33,7 @@ const App = () => {
           <Route path="main" element={<Main />} />
           <Route path="profile" element={<Profile />} />
           <Route path="transactions" element={<Transactions />} />
-          <Route path="about" element={<About />} />
+          <Route path="aadharsign" element={<AadhaarESign />} />
         </Route>
       </Routes>
     </>

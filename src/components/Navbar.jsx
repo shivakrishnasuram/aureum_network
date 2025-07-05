@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <nav className="bg-[#0B1C39] text-yellow-400 px-6 py-4 shadow-lg h-16 w-full fixed top-0 left-0 z-50">
+        <nav className="bg-gray-50 text-yellow-400 px-6 py-4 shadow-lg h-16 w-full fixed top-0 left-0 z-50">
             <div className="max-w-7xl mx-auto flex justify-between items-center">
                 <h1 className="text-xl font-bold tracking-wide">AUREUM NETWORK</h1>
 

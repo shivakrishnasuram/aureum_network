@@ -16,8 +16,8 @@ function Profile() {
   };
 
   return (
-    <div className="p-6 bg-[#0B1C39] text-white">
-      <h3 className="text-2xl font-bold text-yellow-400 mb-6">
+    <div className="p-6 bg-white text-gray-900">
+      <h3 className="text-2xl font-bold text-blue-600 mb-6">
         Generate API Key for eSign
       </h3>
 
@@ -25,7 +25,7 @@ function Profile() {
         {/* Generate Button (Always visible) */}
         <button
           onClick={generateApiKey}
-          className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-black text-lg px-6 py-2 rounded shadow hover:opacity-90 transition"
+          className="bg-blue-600 text-white text-lg px-6 py-2 rounded shadow hover:bg-blue-700 transition"
         >
           Generate API Key
         </button>
@@ -34,7 +34,7 @@ function Profile() {
         {apiKey && (
           <button
             onClick={copyToClipboard}
-            className="bg-blue-600 text-white text-lg px-6 py-2 rounded shadow hover:bg-blue-700 transition"
+            className="bg-green-600 text-white text-lg px-6 py-2 rounded shadow hover:bg-green-700 transition"
           >
             Copy to Clipboard
           </button>
@@ -43,8 +43,8 @@ function Profile() {
 
       {/* API Key Display */}
       {apiKey && (
-        <div className="mt-6 border border-yellow-500 rounded-lg p-4">
-          <p className="text-yellow-300 font-mono break-all">
+        <div className="mt-6 border border-blue-400 rounded-lg p-4 bg-gray-50">
+          <p className="text-blue-700 font-mono break-words">
             <strong>API Key:</strong> {apiKey}
           </p>
         </div>

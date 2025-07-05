@@ -20,7 +20,6 @@ const AadhaarESign = () => {
     }
     alert('Document signed successfully!');
   };
-
   return (
     <div className="min-h-screen bg-white flex items-center justify-center px-4 py-10">
       <div className="w-full max-w-md bg-white shadow-lg rounded-lg p-6 space-y-4">

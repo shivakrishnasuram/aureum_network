@@ -4,7 +4,7 @@ import { Menu } from 'lucide-react'; // Or use any icon lib like react-icons
 const DashboardNavbar = ({ onToggleSidebar }) => {
     // console.log(onToggleSidebar,"this is some thing from dshboardnarvar")
     return (
-        <div className="bg-[#0B1C39]  shadow-md p-4 flex justify-between items-center border-b border-gray-200">
+        <div className="bg-gray-50  shadow-md p-4 flex justify-between items-center border-b border-gray-200">
             <div className="flex items-center space-x-4">
                 {/* Hamburger icon on small screens */}
                 <button
